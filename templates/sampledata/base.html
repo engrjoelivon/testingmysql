@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ STATIC_URL}}/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="{{ STATIC_URL}}/javascript/prompter.js"></script>
+    <title > {% block title%} {%endblock%} </title>
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+</head>
+<body>
+<div class="header">
+    <span> <img src="{{ STATIC_URL}}/images/arquillian_icon_256px.png  " alt="icon" height="40px" width="40px"></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+
+
+
+</div>
+ {%block body%}{%endblock%}
+</body>
+</html>
